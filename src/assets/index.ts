@@ -1,0 +1,10 @@
+export { default as fb } from "./icons/bxl_facebook-circle.svg";
+export { default as inst } from "./icons/akar-icons_instagram-fill.svg";
+export { default as tw } from "./icons/akar-icons_twitter-fill.svg";
+export { default as yt } from "./icons/akar-icons_youtube-fill.svg";
+export { default as lin } from "./icons/akar-icons_linkedin-box-fill.svg";
+export { default as ring1 } from "./jewelerries/Frame 17.svg";
+export { default as ring2 } from "./jewelerries/Frame 18.svg";
+export { default as ring3 } from "./jewelerries/Frame 19.svg";
+export { default as ring4 } from "./jewelerries/Frame 20.svg";
+export { default as ring5 } from "./jewelerries/Frame 21.svg";

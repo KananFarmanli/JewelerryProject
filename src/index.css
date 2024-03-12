@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+}
+.wrapper {
+  @apply w-full px-[15px] sm:px-[20px] md:px-[50px] lg:px-[75px] max-w-[1366px] mx-auto;
+}
+
+
+.slide {
+  top: 250px;
+}
+
+.scroll{
+  overflow-y: scroll
+}
+.leverage {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 240px;
+  height: 40px;
+  background: black;
+  margin: auto;
+  cursor:pointer;
+  transform: translate(-50%, 0) perspective(120px) rotateX(-45deg);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 11px;
+}
+
+.leverage-text {
+  color: white;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  cursor:pointer;
+  transform: translateX(-50%);
+}
+
